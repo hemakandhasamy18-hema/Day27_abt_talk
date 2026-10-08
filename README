@@ -1,0 +1,88 @@
+# 🚨 Day 27 – Hashing Systems: Social Media Fraud Detection
+
+## 📌 Project Overview
+
+A Python-based fraud detection system that identifies repeated social media posts within a limited distance using hashing.
+
+## 🎯 Problem Statement
+
+Social media platforms may face spam and bot attacks when automated accounts repeatedly post the same content. Detecting these duplicates efficiently helps identify suspicious activity.
+
+## 💡 Proposed Solution
+
+This project uses Python dictionaries (hash maps) to track previously seen posts and detect duplicates within a specified distance K.
+
+## ⚙️ Features
+
+* 🔍 Detect duplicate social media posts.
+* 🗂️ Track repeated activity using hashing.
+* 🚨 Flag suspicious repeated content within K distance.
+* 📱 Simulate social media posting events.
+* ⚡ Improve duplicate detection performance.
+
+## 🧠 How It Works
+
+1. Simulate social media posts.
+2. Store each post and its most recent index in a dictionary.
+3. Check whether the same post appeared within K positions.
+4. Flag matching posts as suspicious.
+5. Display the duplicate content and its distance.
+
+## 🛠️ Technologies Used
+
+* Python
+* Hash Maps / Dictionaries
+* Data Structures and Algorithms
+
+## ⏱️ Time and Space Complexity
+
+* **Time Complexity:** O(n) average
+* **Space Complexity:** O(n)
+
+Here, `n` represents the number of posts.
+
+Hashing provides average O(1) dictionary lookups, helping the program detect duplicates efficiently.
+
+## ▶️ How to Run
+
+1. Install Python.
+2. Download or clone this repository.
+3. Open the project folder in VS Code.
+4. Run the following command:
+
+```bash
+python day27.py
+```
+
+## 🖥️ Sample Output
+
+```text
+SOCIAL MEDIA FRAUD DETECTION
+
+Duplicate: 'Win a free phone!'
+Previous index: 0
+Current index: 3
+Distance: 3
+
+Fraud detection simulation completed.
+```
+
+## 🌍 Real-World Applications
+
+* Social media spam detection
+* Bot activity monitoring
+* Duplicate transaction detection
+* Cybersecurity systems
+* Fraud monitoring
+
+## 📚 Learning Outcomes
+
+* Understand hashing and hash maps.
+* Detect duplicates within a limited window.
+* Analyze time and space complexity.
+* Apply data structures to real-world fraud detection problems.
+
+## 👩‍💻 Author
+
+Hema Latha
+
